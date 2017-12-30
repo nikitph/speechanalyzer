@@ -15,7 +15,7 @@
                 <div class="col s12 m2 hvr-sweep-to-right" style="height: 200px;background: #c4d455">
                     <div class="icon-block">
                         <h2 class="center white-text"><i class="material-icons medium">input</i></h2>
-                        <h5 class="center" style="font-weight: 200;">Vendor Input</h5>
+                        <h5 class="center" style="font-weight: 200;">Speech Analysis</h5>
 
                     </div>
                 </div>
@@ -24,31 +24,12 @@
                 <div class="col s12 m4" style=" border: #01579b">
                     <div class="icon-block">
                         <div class="center">
-                            <h5 style="font-weight: 200;"> text info input</h5>
+                            <h5 style="font-weight: 200;"></h5>
 
                             <form action="/textinput" method="post">
                                 <div class="input-field">
-                                    <input placeholder="Business name" id="business" type="text" class="validate" name="business">
-                                </div>
-                                <div class="input-field">
-                                    <input placeholder="Phone number" id="phone" type="number" class="validate" name="phone">
-                                </div>
-                                <div class="input-field">
-                                    <textarea id="address" class="materialize-textarea" name="address"></textarea>
-                                    <label for="address">Address</label>
-                                </div>
-                                <div class="input-field">
-                                    <input id="email" type="email" class="validate"
-                                           name="email" placeholder="Email">
-                                </div>
-                                <br>
-
-                                <div>
-                                    <p class="range-field">
-                                        <input type="range" id="footfall" min="0" max="100" name="footfall"/>
-                                        <label for="footfall">Footfall</label>
-
-                                    </p>
+                                    <textarea id="speech" class="materialize-textarea" name="speech"></textarea>
+                                    <label for="speech">Enter text to Analyze here</label>
                                 </div>
                                 <br>
 
